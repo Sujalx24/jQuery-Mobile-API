@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+#home-main-pg{
+    background-color: white;
+}
+
+.ui-icon-yono::after{
+    background-image:url("../images/yono.png");
+    background-size:25px 25px;
+  
+}
+
+.ui-icon-bharat::after{
+    background-image:url("../images/qr.png");
+    background-size:25px 25px;
+  
+}
+
+.ui-icon-new::after{
+    background-image:url("../images/gear.png");
+    background-size:25px 25px;
+  
+}
+
+.ui-icon-mygear::after{
+    background-image:url("../images/grid.png");
+    background-size:25px 25px;
+  
+}
+
+#tabs .ui-btn{
+    background-color: inherit !important;
+    border:none !important;
+}
+
+#tabs .ui-btn:focus{
+    box-shadow: none !important;
+    color: black !important;
+    border-bottom: 3px solid #2ca8ca !important;
+}
+
+.ui-content{
+    padding:0px !important;
+}
+
+#tabs .ui-btn-active{
+    color:black !important;
+}
+
+#login{
+    padding:10px 50px;
+}
+
+#login input{
+    border: none;
+    
+}
+
+#username,#password{
+    width:100%;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #d4d4d4 !important;
+}
+
+#username:focus,#password:focus{
+    outline: none;
+}
+
+#login input[type="submit"]{
+    width:40%;
+    padding:8px;
+    border:none;
+    margin-left:30%;
+    margin-right:30%;
+    border-radius:20%;
+    margin-bottom: 10px;
+}

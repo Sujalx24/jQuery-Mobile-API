@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+#page{
+    background-color: white;
+}
+
+#header{
+    background-color:white;
+    border:none;
+}
+
+#header .ui-btn{
+    border:none;
+    box-shadow: none;
+    margin-bottom:0px !important;
+    background-color: inherit;
+    padding:4px;
+}
+
+#brd-one{
+    font-size:25px;
+    color:#1274C0;
+    font-family: 'Dangrek', cursive;
+}
+
+#brd-two{
+    font-size: 25px;
+    color:#FF6C00;
+    font-family: 'Dangrek', cursive;
+}
+
+#fa-bar,#fa-bell{
+    padding:4px;
+    font-size:17px;
+
+}
+
+#header .ui-block-a{
+    margin-top:-5px;
+    padding:5px;
+}
+
+#icon{
+    background-color: white ;
+    border: none ;
+}
+
+#search-box:focus{
+    background:none !important;
+}
+
+.ui-icon-homei::after{
+    background-size:18px 18px;
+    background-image:url("../images/home.png");
+}
+
+.ui-icon-cart::after{
+    background-size:20px 20px;
+    background-image:url("../images/cart.png");
+}
+
+.ui-icon-pay::after{
+    background-size:20px 20px;
+    background-image:url("../images/pay.png");
+}
+
+.ui-icon-news::after{
+    background-size:20px 20px;
+    background-image:url("../images/news.png");
+}
+
+.ui-icon-more::after{
+    background-size:15px 10px;
+    background-image:url("../images/more.png");
+}
+
+
+.ui-icon-txt a{
+    font-size:11px !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+}
+
+
+
+.ui-icon-scart::after{
+    background-size:20px 20px;
+    background-image:url("../images/shopping-cart.png");
+}
+
+.ui-icon-sb2b::after{
+    background-size:20px 20px;
+    background-image:url("../images/b2b.png");
+}
+
+
+.ui-icon-sdoct::after{
+    background-size:20px 20px;
+    background-image:url("../images/doc.png");
+}
+
+.ui-icon-stral::after{
+    background-size:20px 20px;
+    background-image:url("../images/airplane.png");
+}
+
+.ui-icon-sdown::after{
+    background-size:20px 20px;
+    background-image:url("../images/down.png");
+}
+
+.ui-icon-txt .ui-btn{
+    border:none;
+    background-color: inherit !important;
+}
+ 
+ #page .ui-btn{
+    border:none !important;
+    background-color: white !important;
+} 
+
+.ui-style{
+font-size:14px;
+font-weight:normal !important;
+padding:5px !important;
+}
+
+
+
+#set-icon .ui-icon-user{
+    font-size:10.5px;
+    
+}
